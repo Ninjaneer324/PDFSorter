@@ -71,8 +71,7 @@
 
     -->
 
-
-<target name="-post-compile">
-    <copy todir="${dist.dir}\tessdata"><fileset dir=".\tessdata"/></copy>   
-</target>
+    <target name="-post-compile">
+        <copy todir="${dist.dir}\tessdata"><fileset dir=".\tessdata"/></copy>   
+    </target>
 </project>
