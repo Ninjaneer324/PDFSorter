@@ -212,6 +212,7 @@ public class PDFSorter implements ActionListener  {
                 }
                 //RESULT.setText("SUCCESS");
                 //FRAME.add(SUCCESS);
+                //Try adding a success/failure label
                 //JOptionPane.showMessageDialog(FRAME, error.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             }
             catch(Exception error) {
