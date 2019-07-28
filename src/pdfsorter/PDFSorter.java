@@ -6,13 +6,14 @@
 
 package pdfsorter;
 
-import java.util.*;
+//import java.util.*;
 import java.awt.image.*;
 import java.io.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.nio.channels.FileChannel;
+import java.util.*;
 
 public class PDFSorter implements ActionListener  {
     private final static JFrame FRAME = new JFrame();
