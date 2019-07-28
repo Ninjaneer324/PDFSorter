@@ -22,8 +22,8 @@ public class PDFSorter implements ActionListener  {
     private final static JTextField DESTINATIONFOLDER = new JTextField("Destination Folder");
     private final static JButton DEST_BROWSE = new JButton("Browse");
     private final static JTextField KEYWORDS = new JTextField("Enter Keywords: (separate each with semicolon + space)");
+    //private final static JLabel SUCCESS = new JLabel("SUCCESS");
     //private final static JTextField RESULT = new JTextField("");
-    
     private final static JButton BTNOK = new JButton("OK");
     
     public static void main(String[] args) {
@@ -67,6 +67,11 @@ public class PDFSorter implements ActionListener  {
         //RESULT.setBounds(10,410, 580,75);
         //RESULT.setFont(new Font("Arial", Font.PLAIN, 9));
         //FRAME.add(RESULT);
+        
+        /*SUCCESS.setBounds(10, 410, 580, 75);
+        SUCCESS.setFont(new Font("Arial", Font.PLAIN, 30));
+        SUCCESS.setForeground(Color.GREEN);*/
+        
         
         BTNOK.setBounds(375,510, 200,40);
         BTNOK.setFont(new Font("Arial", Font.PLAIN, 30));
@@ -206,6 +211,7 @@ public class PDFSorter implements ActionListener  {
                     //RESULT.setText("Finished with file: " + source_path);
                 }
                 //RESULT.setText("SUCCESS");
+                //FRAME.add(SUCCESS);
                 //JOptionPane.showMessageDialog(FRAME, error.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
             }
             catch(Exception error) {
